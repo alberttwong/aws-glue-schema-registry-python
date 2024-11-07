@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "TestObject",
+  "namespace": "ca.dataedu",
+  "fields": [
+    {
+      "name": "favorite_number",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null
+    },
+    {
+      "name": "name",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    }
+  ]
+}
